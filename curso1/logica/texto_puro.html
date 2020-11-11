@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <h3>Álcool ou Gasolina?</h3>
+
+<script>
+
+   function pulaLinha(){
+        document.write("<br>");
+   }
+
+   function mostra(frase){
+       document.write(frase);
+       pulaLinha()
+   }
+
+
+
+idade1 = 27
+idade2  = 25
+
+mostra("Nossa diferença de idade é " + (idade1 - idade2))
+
+anoatual = 2020
+anovelho = 1500
+
+diferenca = (anoatual - anovelho) / 28
+
+mostra("A quantidade de gerações é " + Math.round(diferenca) )
+</script>
+</body>
+</html>
